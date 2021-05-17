@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="heading-primary">Questionnaire</h1> 
+    </div>
+
+    <header class="header">
+        <div class="header__content">
+            <h2 class="header__title">
+                What do you think of <br/> 
+                the user interface of <br/> 
+                <a href="https://www.google.com/" class="header__link">Google?</a>
+            </h2>
+        </div>
+    </header>
+
+    <main class="main">
+        <form action="" id="form" class="form">
+            <div class="form__section">
+                <h3 class="form__title">Personal Information</h3>
+
+                <div class="form__group">
+                    <label  class="form__label">
+                        First Name
+                        <input type="text" placeholder="First Name" name="firstname" class="form__input">
+                    </label>
+                </div>
+
+                <div class="form__group">
+                    <label  class="form__label">
+                        Last Name
+                        <input type="text" placeholder="Last Name" name="lastname" class="form__input">
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__section">
+                <h3 class="form__title">Did you like the user interface?</h3>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="radio" name="like" class="form__radio">
+                         Yes
+                    </label>
+                </div>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="radio" name="like" class="form__radio">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__section">
+                <h3 class="form__title">What colors did you like? </h3>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="checkbox" name="color" value="blue" class="form__checkbox">
+                        Blue
+                    </label>
+                </div>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="checkbox" name="color" value="red" class="form__checkbox">
+                        Red
+                    </label>
+                </div>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="checkbox" name="color" value="yellow" class="form__checkbox">
+                        Yellow
+                    </label>
+                </div>
+                <div class="form__group">
+                    <label  class="form__label">
+                        <input type="checkbox" name="color" value="green" class="form__checkbox">
+                        Green
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="form__section">
+                <div class="form__group">
+                    <label  class="form__label">
+                        <h3 class="form__title">What was your favorite feature?</h3>
+                        <select id="favorite" name="feature" class="form__select">
+                            <option value="Searching" selected="selected">Searching</option>
+                            <option value="Feeling Lucky">Feeling Lucky</option>
+                            <option value="Voice Search">Voice Search</option>
+                    </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__section">
+                <div class="form__group">
+                    <label  class="form__label">
+                        <h3 class="form__title">Comment</h3>
+                        <textarea name="comment" placeholder="Leave a comment" cols="30" rows="5" class="form__textarea"></textarea>
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn form__submit">Submit</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <h3 class="heading-tertiary">Website designed by Rodger Retanal</h3>
+    </footer>
+</body>
+</html>
