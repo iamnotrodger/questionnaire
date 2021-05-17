@@ -1,0 +1,16 @@
+{
+  "name": "questionaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass style/main.scss style/style.css -w",
+    "build": "node-sass style/main.scss style/style.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Rodger Retanal",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
