@@ -1,0 +1,36 @@
+.header {
+	padding-top: 4rem;
+	margin-bottom: 3rem;
+	height: 50vh;
+	color: var(--color-white);
+	background-image: linear-gradient(
+			to bottom,
+			var(--color-primary) 0,
+			transparent 50%
+		),
+		url('https://cdn.searchenginejournal.com/wp-content/uploads/2014/09/0917_google-homepage.png');
+	background-size: cover;
+	background-position: center;
+
+	&__content {
+		padding-left: 3rem;
+		margin: 0 auto;
+		max-width: var(--max-content-width);
+	}
+
+	&__title {
+		font-family: var(--font-secondary);
+		font-size: 5.6rem;
+	}
+
+	&__link {
+		&,
+		&:link,
+		&:visited {
+			color: #ffcc4c;
+			text-decoration: none;
+			font-size: 6.4rem;
+			font-weight: 400;
+		}
+	}
+}
